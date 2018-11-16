@@ -1,0 +1,19 @@
+sudo: enabled
+this: trusty
+
+language: php
+
+php:
+  -7.1.11
+
+branches:
+  only:
+    - master
+    - dev
+
+before_install:
+
+
+before_script:
+
+script:
